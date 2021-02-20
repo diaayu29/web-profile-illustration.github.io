@@ -1,0 +1,417 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    overflow-x: hidden;
+}
+
+
+/* Nav */
+
+.nav-link {
+    font-size: 20px;
+    margin-left: 34px;
+}
+
+.fa-user {
+    color: #fff;
+    font-size: 28px;
+}
+
+
+/* Akhir nav */
+
+
+/* Header */
+
+.header {
+    position: relative;
+    z-index: 10;
+    background-color: #073656;
+    height: 620px;
+}
+
+.jumbotron h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.bag-1 {
+    margin: auto;
+}
+
+.bag-1 h1 {
+    letter-spacing: 7px;
+    line-break: 10px;
+}
+
+.bag-1 .btn {
+    background-color: #78AD19;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 25px;
+    opacity: 0.8;
+    margin-left: 180px;
+    transition: all 2ms;
+}
+
+
+/* Akhir header */
+
+
+/* Style */
+
+.Style {
+    position: relative;
+    z-index: 10;
+}
+
+.Style h2 {
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.style-Bx img {
+    display: block;
+    margin: auto;
+}
+
+.style-Bx .img-1 {
+    margin-top: 35px;
+    width: 281px;
+    height: 195px;
+}
+
+.style-Bx .img-2 {
+    width: 242px;
+    height: 242px;
+}
+
+.style-Bx .img-3 {
+    margin-top: 35px;
+    width: 387px;
+    height: 195px;
+}
+
+
+/* Akhir style */
+
+
+/* reason */
+
+.reasons {
+    position: relative;
+}
+
+.reasons h2 {
+    text-align: center;
+    margin-top: 120px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.Box-model {
+    position: absolute;
+    height: 100px;
+    width: 90%;
+    left: 40px;
+    border-radius: 10px;
+    margin: auto;
+    background-color: #78AD19;
+    opacity: 0.6;
+    top: 25px;
+}
+
+.Box-item .update,
+.resource,
+.fa-user-friends {
+    width: 90px;
+    height: 90px;
+    font-size: 90px;
+    color: navy;
+}
+
+.Box-item h3 {
+    margin-top: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.Box-item {
+    padding: 40px 5px;
+    opacity: 0.8;
+    width: 265px;
+    height: 317px;
+    background-color: #78AD19;
+    margin: 40px 20px;
+    border-radius: 5px;
+    transition: all 0.5s;
+    margin: auto;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.Box-item:hover {
+    cursor: pointer;
+    opacity: 1;
+    transition: all 0.5s;
+    box-shadow: 10px 10px 30px #46640e;
+}
+
+.Box-item p {
+    font-size: 20px;
+    text-align: center;
+    background-color: #78AD19;
+}
+
+.reasons .btn {
+    background-color: #78AD19;
+    color: #000;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+
+/* Akhir reason*/
+
+
+/* price */
+
+.price {
+    margin-top: 75px;
+    color: #fff;
+    text-align: center;
+    background-color: #073656;
+}
+
+.price h1 {
+    color: #fff;
+    padding-top: 40px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.content h2,
+h3,
+p {
+    color: #000;
+}
+
+.swiper-container {
+    width: 100%;
+    padding: 50px;
+}
+
+.swiper-slide {
+    box-sizing: border-box;
+    padding: 18px;
+    background-position: center;
+    background-size: cover;
+    width: 270px;
+    height: 300px;
+    filter: blur(2px);
+    opacity: 0.4;
+}
+
+.swiper-slide-active {
+    width: 275px;
+    height: 355px;
+    transition-duration: 2s;
+    filter: blur(0px);
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 7px 7px 10px rgb(217, 239, 245);
+    opacity: 1;
+}
+
+
+/* Akhir price */
+
+
+/* Footer */
+
+footer {
+    background-color: #78AD19;
+    padding: 15px 10px 10px 10px;
+}
+
+.text {
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.copy {
+    align-self: flex-end;
+}
+
+.copy span {
+    border-right: 1px solid rgb(44, 44, 44);
+}
+
+.text-1 {
+    display: block;
+}
+
+.sosmed {
+    font-size: 26px;
+    color: #073656;
+}
+
+.fab {
+    margin-left: 5px;
+    transition: all 0.5s;
+}
+
+.fab:hover {
+    transition: all 0.5s;
+    cursor: pointer;
+    color: #031825;
+    text-shadow: 3px 3px 4px #020f18;
+}
+
+
+/* Akhir footer */
+
+@media (min-width: 992px) {
+    /* Header */
+    .header img {
+        margin-top: 80px;
+        margin-left: 120px;
+    }
+    .bag-1 {
+        margin-top: 140px;
+    }
+    .container-fluid {
+        display: flex;
+    }
+    .jumbotron h1 {
+        font-size: 60px;
+        text-align: left;
+    }
+    .bag-1 .btn {
+        font-size: 30px;
+    }
+    /* Akhir Header */
+    /* Style */
+    .style-Bx {
+        display: flex;
+        justify-content: center;
+    }
+    .style-Bx .img-2 {
+        margin: 0 20px 0 20px;
+    }
+    /* Akhir style */
+    /* Glow */
+    .glow {
+        position: relative;
+        min-width: 900px;
+        min-height: 500px;
+    }
+    .glow span {
+        position: absolute;
+        top: calc(100px * var(--i));
+        left: calc(100px * var(--i));
+        bottom: calc(100px * var(--i));
+        right: calc(100px * var(--i));
+    }
+    .glow span::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: -8px;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+    .glow span:nth-child(6n + 1)::before {
+        background: rgb(0, 41, 51);
+        box-shadow: 0 0 20px rgba(0.1, 41, 51), 0 0 40px rgba(0.1, 41, 51), 0 0 60px rgba(0.1, 41, 51), 0 0 80px rgba(0.1, 41, 51);
+        opacity: 0.7;
+    }
+    .glow span:nth-child(6n + 2)::before {
+        background: rgb(36, 68, 0);
+        box-shadow: 0 0 20px rgba(36, 68, 0.1), 0 0 40px rgba(36, 68, 0.1), 0 0 60px rgba(36, 68, 0.1), 0 0 80px rgba(36, 68, 0.1);
+        opacity: 0.7;
+    }
+    .glow span:nth-child(6n + 3)::before {
+        background: rgb(0, 41, 51);
+        box-shadow: 0 0 20px rgba(0.1, 41, 51), 0 0 40px rgba(0.1, 41, 51), 0 0 60px rgba(0.1, 41, 51), 0 0 80px rgba(0.1, 41, 51);
+        opacity: 0.7;
+    }
+    .glow span:nth-child(6n + 4)::before {
+        background: rgb(36, 68, 0);
+        box-shadow: 0 0 20px rgba(36, 68, 0.1), 0 0 40px rgba(36, 68, 0.1), 0 0 60px rgba(36, 68, 0.1), 0 0 80px rgba(36, 68, 0.1);
+        opacity: 0.7;
+    }
+    .glow span:nth-child(6n + 5)::before {
+        background: rgb(0, 41, 51);
+        box-shadow: 0 0 20px rgba(0.1, 41, 51), 0 0 40px rgba(0.1, 41, 51), 0 0 60px rgba(0.1, 41, 51), 0 0 80px rgba(0.1, 41, 51);
+        opacity: 0.7;
+    }
+    .glow span:nth-child(6n + 1) {
+        animation: animate 9s alternate infinite;
+    }
+    .glow span:nth-child(6n + 2) {
+        animation: animate-reverse 10s alternate infinite;
+    }
+    .glow span:nth-child(6n + 3) {
+        animation: animate 8s alternate infinite;
+    }
+    .glow span:nth-child(6n + 4) {
+        animation: animate-reverse 7s alternate infinite;
+    }
+    .glow span:nth-child(6n + 5) {
+        animation: animate-reverse 6s alternate infinite;
+    }
+    @keyframes animate {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+    @keyframes animate-reverse {
+        0% {
+            transform: rotate(360deg);
+        }
+        100% {
+            transform: rotate(0deg);
+        }
+    }
+    /* Akhir glow */
+    /* reasons */
+    .Box-model .container {
+        display: flex;
+        justify-content: center;
+    }
+    .Box-model {
+        height: 200px;
+    }
+    .reasons .container {
+        display: flex;
+    }
+    /* Akhir reasons */
+    /* footer */
+    footer {
+        padding: 15px 90px 0 90px
+    }
+    .fab {
+        margin-left: 20px;
+    }
+    .text {
+        justify-content: space-between;
+    }
+    /* Akhir footer */
+}
